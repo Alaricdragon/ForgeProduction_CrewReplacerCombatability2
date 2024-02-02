@@ -2,7 +2,6 @@ package forgprod.crewReplacer_Combatability;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CargoAPI;
-import data.scripts.CrewReplacer_Log;
 import forgprod.abilities.conversion.support.ProductionType;
 
 public class Forgeprod_DefaultCargo {

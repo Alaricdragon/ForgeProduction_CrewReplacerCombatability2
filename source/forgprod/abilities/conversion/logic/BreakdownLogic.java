@@ -6,7 +6,6 @@ import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Commodities;
 
-import data.scripts.CrewReplacer_Log;
 import forgprod.abilities.conversion.support.ConversionVariables;
 import forgprod.abilities.conversion.support.checks.FleetwideProductionChecks;
 import forgprod.abilities.modules.FleetwideModuleManager;

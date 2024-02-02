@@ -87,7 +87,6 @@ public class Forgeprod_CrewReplacerCargo extends Forgeprod_DefaultCargo {
     /
      */
     public Forgeprod_CrewReplacerCargo(){
-       // CrewReplacer_Log.loging("GOT DAT NAME AS: " + ProductionType.FUEL_PRODUCTION.name(),this,true);
         Forgeprod_DefaultCargo.active = this;
         startup();
     }
@@ -114,7 +113,7 @@ public class Forgeprod_CrewReplacerCargo extends Forgeprod_DefaultCargo {
     }
     private void createJobs(String TYPE,String[] job_Materials){
         for (String a : job_Materials){
-            CrewReplacer_Log.loging("job: "+TYPE+", item: "+a,this,true);
+            CrewReplacer_Log.loging("job: "+TYPE+", item: "+a,this);
             String temp = this.CN(TYPE,a);
             crewReplacer_Job job = crewReplacer_Main.getJob(temp);
             String crewSetName = name+"_"+a;

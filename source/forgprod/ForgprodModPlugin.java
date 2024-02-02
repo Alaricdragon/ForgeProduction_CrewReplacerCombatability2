@@ -1,6 +1,5 @@
 package forgprod;
 
-import data.scripts.CrewReplacer_Log;
 import forgprod.crewReplacer_Combatability.Forgeprod_CrewReplacerCargo;
 import forgprod.crewReplacer_Combatability.Forgeprod_DefaultCargo;
 import org.json.JSONException;
@@ -55,6 +54,5 @@ public final class ForgprodModPlugin extends BaseModPlugin {
         }else{
             new Forgeprod_DefaultCargo();
         }
-        CrewReplacer_Log.loging("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA DID DA THING",this,true);
     }
 }
